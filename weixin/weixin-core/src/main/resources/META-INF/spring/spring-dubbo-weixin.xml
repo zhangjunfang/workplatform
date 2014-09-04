@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd http://www.springframework.org/schema/tx
+            http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop
+            http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd">
+
+	<description>服务接口定义</description>
+
+	<!-- 日志配置服务 -->
+	<dubbo:reference id="weixinLogConfigService"
+		interface="com.baoyuan.service.weixin.LogConfigService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 日志服务 -->
+	<dubbo:reference id="weixinLogService"
+		interface="com.baoyuan.service.weixin.LogService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信验证 -->
+	<dubbo:reference id="weixinWxAuthRequestService"
+		interface="com.baoyuan.service.weixin.WxAuthRequestService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信配置 -->
+	<dubbo:reference id="weixinWxConfigService"
+		interface="com.baoyuan.service.weixin.WxConfigService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信菜单 -->
+	<dubbo:reference id="weixinWxMenuService"
+		interface="com.baoyuan.service.weixin.WxMenuService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信OAuth -->
+	<dubbo:reference id="weixinWxAccessTokenService"
+		interface="com.baoyuan.service.weixin.WxAccessTokenService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信用户 -->
+	<dubbo:reference id="weixinWxUserService"
+		interface="com.baoyuan.service.weixin.WxUserService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信上送消息 -->
+	<dubbo:reference id="weixinWxMessageRequestService"
+		interface="com.baoyuan.service.weixin.WxMessageRequestService"
+		version="${weixin.reference.version}" group="${weixin.reference.group}"
+		init="${weixin.reference.init}" timeout="${weixin.reference.timeout}"
+		retries="${weixin.reference.retries}" />
+
+	<!-- 微信关注者列表 -->
+	<dubbo:reference id="weixinWxFollowersService"
+		interface="com.baoyuan.service.weixin.WxFollowersService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信关注者分组 -->
+	<dubbo:reference id="weixinWxFollowerGroupService"
+		interface="com.baoyuan.service.weixin.WxFollowerGroupService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信门店类别信息 -->
+	<dubbo:reference id="weixinWxShopCategoryService"
+		interface="com.baoyuan.service.weixin.WxShopCategoryService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信门店信息 -->
+	<dubbo:reference id="weixinWxShopService"
+		interface="com.baoyuan.service.weixin.WxShopService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信门店楼层信息 -->
+	<dubbo:reference id="weixinWxShopFloorService"
+		interface="com.baoyuan.service.weixin.WxShopFloorService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信商品分类信息 -->
+	<dubbo:reference id="weixinWxGoodsCategoryService"
+		interface="com.baoyuan.service.weixin.WxGoodsCategoryService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信楼层品牌信息 -->
+	<dubbo:reference id="weixinWxFloorBrandService"
+		interface="com.baoyuan.service.weixin.WxFloorBrandService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信文章分类信息 -->
+	<dubbo:reference id="weixinWxArticleCategoryService"
+		interface="com.baoyuan.service.weixin.WxArticleCategoryService"
+		version="${weixin.reference.version}" group="${weixin.reference.group}"
+		init="${weixin.reference.init}" timeout="${weixin.reference.timeout}"
+		retries="${weixin.reference.retries}" />
+
+	<!-- 微信门店文章信息 -->
+	<dubbo:reference id="weixinWxArticleService"
+		interface="com.baoyuan.service.weixin.WxArticleService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信门店预约服务信息 -->
+	<dubbo:reference id="weixinWxShopBespeakService"
+		interface="com.baoyuan.service.weixin.WxShopBespeakService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信门店预约订单信息 -->
+	<dubbo:reference id="weixinWxBespeakOrderService"
+		interface="com.baoyuan.service.weixin.WxBespeakOrderService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 微信授权用户绑定会员卡信息 -->
+	<dubbo:reference id="weixinWxCardBindService"
+		interface="com.baoyuan.service.weixin.WxCardBindService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+	<!-- 联盟商户类型 -->
+	<dubbo:reference id="weixinWxUnionMerchantTypeService"
+		interface="com.baoyuan.service.weixin.WxUnionMerchantTypeService"
+		version="${weixin.reference.version}" group="${weixin.reference.group}"
+		init="${weixin.reference.init}" timeout="${weixin.reference.timeout}"
+		retries="${weixin.reference.retries}" />
+
+	<!-- 联盟商户信息 -->
+	<dubbo:reference id="weixinWxUnionMerchantService"
+		interface="com.baoyuan.service.weixin.WxUnionMerchantService" version="${weixin.reference.version}"
+		group="${weixin.reference.group}" init="${weixin.reference.init}"
+		timeout="${weixin.reference.timeout}" retries="${weixin.reference.retries}" />
+
+</beans>

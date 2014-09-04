@@ -1,0 +1,528 @@
+2014-09-02 16:10:32 [main:0] - [INFO] Root WebApplicationContext: initialization started
+2014-09-02 16:10:32 [main:50] - [INFO] Refreshing Root WebApplicationContext: startup date [Tue Sep 02 16:10:32 CST 2014]; root of context hierarchy
+2014-09-02 16:10:32 [main:84] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-cache.xml]
+2014-09-02 16:10:32 [main:231] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-dubbo-shared.xml]
+2014-09-02 16:10:33 [main:290] - [INFO] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2014-09-02 16:10:33 [main:315] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-dubbo-weixin.xml]
+2014-09-02 16:10:33 [main:342] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-dubbo.xml]
+2014-09-02 16:10:33 [main:356] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-i18n.xml]
+2014-09-02 16:10:33 [main:363] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-shiro.xml]
+2014-09-02 16:10:33 [main:377] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring.xml]
+2014-09-02 16:10:33 [main:398] - [INFO] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2014-09-02 16:10:33 [main:399] - [INFO] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2014-09-02 16:10:33 [main:526] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/common-util/1.0.0-SNAPSHOT/common-util-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-crypt.xml]
+2014-09-02 16:10:33 [main:538] - [INFO] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2014-09-02 16:10:33 [main:538] - [INFO] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2014-09-02 16:10:33 [main:756] - [INFO] Loading properties file from class path resource [application.properties]
+2014-09-02 16:10:33 [main:768] - [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-09-02 16:10:33 [main:898] - [INFO] Initializing EhCache CacheManager
+2014-09-02 16:10:33 [main:1014] - [INFO] Bean 'ehCacheManagerFactoryBean' of type [class org.springframework.cache.ehcache.EhCacheManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:10:33 [main:1018] - [INFO] Bean 'ehCacheManagerFactoryBean' of type [class net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:10:33 [main:1018] - [INFO] Bean 'shiroEhcacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:10:33 [main:1192] - [INFO] Bean '${application.name}' of type [class com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:10:33 [main:1200] - [INFO] Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [class com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:10:33 [main:1201] - [INFO] Bean 'sharedUserService' of type [class com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:10:34 [ZkClient-EventThread-507-192.168.0.78:2181:1272] - [INFO] Starting ZkClient event thread.
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:host.name=zhangboyu
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.version=1.7.0_67
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.vendor=Oracle Corporation
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.home=C:\softTool\java\jdk32
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.class.path=/C:/softTool/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.maven.ide.eclipse.maven_embedder_0.12.1.20110112-1712/jars/plexus-classworlds-2.4.jar
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.library.path=C:\softTool\java\jdk32\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/softTool/java/jdk32/bin/client;C:/softTool/java/jdk32/bin;C:/softTool/java/jdk32/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\softTool\Go\bin;C:\softTool\Git\bin;C:\softTool\eclipse-jee-juno-SR1-win32\eclipse;;.
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:java.compiler=<NA>
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:os.name=Windows 7
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:os.arch=x86
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:os.version=6.1
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:user.name=Administrator
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:user.home=C:\Users\Administrator
+2014-09-02 16:10:34 [main:1290] - [INFO] Client environment:user.dir=D:\D\workplatform\weixin\weixin-web
+2014-09-02 16:10:34 [main:1291] - [INFO] Initiating client connection, connectString=192.168.0.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@1c7fcbe
+2014-09-02 16:10:34 [main-SendThread():1299] - [INFO] Opening socket connection to server /192.168.0.78:2181
+2014-09-02 16:10:57 [main-SendThread(192.168.0.78:2181):24863] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:10:59 [main-SendThread(192.168.0.78:2181):26494] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:11:20 [main-SendThread(192.168.0.78:2181):47505] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:11:22 [main-SendThread(192.168.0.78:2181):49520] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:11:43 [main-SendThread(192.168.0.78:2181):70522] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:11:45 [main-SendThread(192.168.0.78:2181):72363] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:12:06 [main-SendThread(192.168.0.78:2181):93361] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:12:07 [main-SendThread(192.168.0.78:2181):95089] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:12:28 [main-SendThread(192.168.0.78:2181):116096] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:12:30 [main-SendThread(192.168.0.78:2181):117916] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:12:51 [main-SendThread(192.168.0.78:2181):138913] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:12:52 [main-SendThread(192.168.0.78:2181):140123] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:13:13 [main-SendThread(192.168.0.78:2181):161124] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:13:15 [main-SendThread(192.168.0.78:2181):162538] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:13:36 [main-SendThread(192.168.0.78:2181):183549] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:13:38 [main-SendThread(192.168.0.78:2181):185358] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:13:59 [main-SendThread(192.168.0.78:2181):206353] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:14:00 [main-SendThread(192.168.0.78:2181):207776] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:14:21 [main-SendThread(192.168.0.78:2181):228773] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:14:23 [main-SendThread(192.168.0.78:2181):230604] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:14:44 [main-SendThread(192.168.0.78:2181):251607] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:14:46 [main-SendThread(192.168.0.78:2181):253676] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:15:07 [main-SendThread(192.168.0.78:2181):274673] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:15:09 [main-SendThread(192.168.0.78:2181):276538] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:15:30 [main-SendThread(192.168.0.78:2181):297538] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:15:31 [main-SendThread(192.168.0.78:2181):298736] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:15:52 [main-SendThread(192.168.0.78:2181):319742] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:15:53 [main-SendThread(192.168.0.78:2181):321121] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:16:14 [main-SendThread(192.168.0.78:2181):342122] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:16:16 [main-SendThread(192.168.0.78:2181):343566] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:16:37 [main-SendThread(192.168.0.78:2181):364567] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:16:38 [main-SendThread(192.168.0.78:2181):365873] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:16:59 [main-SendThread(192.168.0.78:2181):386869] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:17:00 [main-SendThread(192.168.0.78:2181):388054] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:17:21 [main-SendThread(192.168.0.78:2181):409057] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:17:23 [main-SendThread(192.168.0.78:2181):410839] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:17:44 [main-SendThread(192.168.0.78:2181):431838] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:17:46 [main-SendThread(192.168.0.78:2181):433417] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:18:07 [main-SendThread(192.168.0.78:2181):454504] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:18:09 [main-SendThread(192.168.0.78:2181):456411] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:18:30 [main-SendThread(192.168.0.78:2181):477414] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:18:31 [main-SendThread(192.168.0.78:2181):478919] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:18:32 [main:0] - [INFO] Root WebApplicationContext: initialization started
+2014-09-02 16:18:32 [main:39] - [INFO] Refreshing Root WebApplicationContext: startup date [Tue Sep 02 16:18:32 CST 2014]; root of context hierarchy
+2014-09-02 16:18:32 [main:76] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-cache.xml]
+2014-09-02 16:18:32 [main:146] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-dubbo-shared.xml]
+2014-09-02 16:18:32 [main:184] - [INFO] using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+2014-09-02 16:18:32 [main:203] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-dubbo-weixin.xml]
+2014-09-02 16:18:32 [main:225] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-dubbo.xml]
+2014-09-02 16:18:32 [main:236] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-i18n.xml]
+2014-09-02 16:18:32 [main:244] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-shiro.xml]
+2014-09-02 16:18:32 [main:259] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/weixin-core/1.0.0-SNAPSHOT/weixin-core-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring.xml]
+2014-09-02 16:18:32 [main:287] - [INFO] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2014-09-02 16:18:32 [main:288] - [INFO] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2014-09-02 16:18:32 [main:434] - [INFO] Loading XML bean definitions from URL [jar:file:/C:/.m2/repository/com/baoyuan/common-util/1.0.0-SNAPSHOT/common-util-1.0.0-SNAPSHOT.jar!/META-INF/spring/spring-crypt.xml]
+2014-09-02 16:18:32 [main:450] - [INFO] JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2014-09-02 16:18:32 [main:450] - [INFO] JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2014-09-02 16:18:33 [main:667] - [INFO] Loading properties file from class path resource [application.properties]
+2014-09-02 16:18:33 [main:681] - [INFO] JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2014-09-02 16:18:33 [main:795] - [INFO] Initializing EhCache CacheManager
+2014-09-02 16:18:33 [main:905] - [WARN] diskStorePath 'C:\Users\ADMINI~1\AppData\Local\Temp\cache4weixin' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to C:\Users\ADMINI~1\AppData\Local\Temp\cache4weixin\ehcache_auto_created5044128840658174844diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2014-09-02 16:18:33 [main:905] - [WARN] Data in persistent disk stores is ignored for stores from automatically created directories.
+Remove diskPersistent or resolve the conflicting disk paths in cache configuration.
+Deleting data file C:\Users\ADMINI~1\AppData\Local\Temp\cache4weixin\ehcache_auto_created5044128840658174844diskstore\shiro-active%0053ession%0043ache.data
+2014-09-02 16:18:33 [main:920] - [INFO] Bean 'ehCacheManagerFactoryBean' of type [class org.springframework.cache.ehcache.EhCacheManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:18:33 [main:923] - [INFO] Bean 'ehCacheManagerFactoryBean' of type [class net.sf.ehcache.CacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:18:33 [main:924] - [INFO] Bean 'shiroEhcacheManager' of type [class org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:18:33 [main:1095] - [INFO] Bean '${application.name}' of type [class com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:18:33 [main:1103] - [INFO] Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [class com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:18:33 [main:1105] - [INFO] Bean 'sharedUserService' of type [class com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2014-09-02 16:18:33 [ZkClient-EventThread-19-192.168.0.78:2181:1176] - [INFO] Starting ZkClient event thread.
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:zookeeper.version=3.3.3-1073969, built on 02/23/2011 22:27 GMT
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:host.name=zhangboyu
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:java.version=1.7.0_67
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:java.vendor=Oracle Corporation
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:java.home=C:\softTool\java\jdk32
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:java.class.path=/C:/softTool/eclipse-jee-juno-SR1-win32/eclipse/plugins/org.maven.ide.eclipse.maven_embedder_0.12.1.20110112-1712/jars/plexus-classworlds-2.4.jar
+2014-09-02 16:18:33 [main:1182] - [INFO] Client environment:java.library.path=C:\softTool\java\jdk32\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/softTool/java/jdk32/bin/client;C:/softTool/java/jdk32/bin;C:/softTool/java/jdk32/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\softTool\Go\bin;C:\softTool\Git\bin;C:\softTool\eclipse-jee-juno-SR1-win32\eclipse;;.
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:java.io.tmpdir=C:\Users\ADMINI~1\AppData\Local\Temp\
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:java.compiler=<NA>
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:os.name=Windows 7
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:os.arch=x86
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:os.version=6.1
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:user.name=Administrator
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:user.home=C:\Users\Administrator
+2014-09-02 16:18:33 [main:1183] - [INFO] Client environment:user.dir=D:\D\workplatform\weixin\weixin-web
+2014-09-02 16:18:33 [main:1184] - [INFO] Initiating client connection, connectString=192.168.0.78:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@87b78d
+2014-09-02 16:18:33 [main-SendThread():1197] - [INFO] Opening socket connection to server /192.168.0.78:2181
+2014-09-02 16:18:52 [main-SendThread(192.168.0.78:2181):499921] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:18:53 [main-SendThread(192.168.0.78:2181):501120] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:18:57 [main-SendThread(192.168.0.78:2181):24757] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:18:58 [main-SendThread(192.168.0.78:2181):26295] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:19:14 [main-SendThread(192.168.0.78:2181):522123] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:19:16 [main-SendThread(192.168.0.78:2181):524181] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:19:19 [main-SendThread(192.168.0.78:2181):47312] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:19:21 [main-SendThread(192.168.0.78:2181):48912] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:19:37 [main-SendThread(192.168.0.78:2181):545194] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:19:39 [main-SendThread(192.168.0.78:2181):547047] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:19:42 [main-SendThread(192.168.0.78:2181):69919] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:19:44 [main-SendThread(192.168.0.78:2181):71749] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:20:00 [main-SendThread(192.168.0.78:2181):568048] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:20:02 [main-SendThread(192.168.0.78:2181):569664] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:20:05 [main-SendThread(192.168.0.78:2181):92751] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:20:06 [main-SendThread(192.168.0.78:2181):94123] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:20:23 [main-SendThread(192.168.0.78:2181):590661] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:20:24 [main-SendThread(192.168.0.78:2181):592059] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:20:27 [main-SendThread(192.168.0.78:2181):115119] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:20:29 [main-SendThread(192.168.0.78:2181):116733] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:20:45 [main-SendThread(192.168.0.78:2181):613054] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:20:47 [main-SendThread(192.168.0.78:2181):614847] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:20:50 [main-SendThread(192.168.0.78:2181):137733] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:20:51 [main-SendThread(192.168.0.78:2181):139239] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:21:08 [main-SendThread(192.168.0.78:2181):635847] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:21:10 [main-SendThread(192.168.0.78:2181):637905] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:21:12 [main-SendThread(192.168.0.78:2181):160243] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:21:14 [main-SendThread(192.168.0.78:2181):162232] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:21:31 [main-SendThread(192.168.0.78:2181):658906] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:21:32 [main-SendThread(192.168.0.78:2181):660064] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:21:35 [main-SendThread(192.168.0.78:2181):183236] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:21:37 [main-SendThread(192.168.0.78:2181):185006] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:21:53 [main-SendThread(192.168.0.78:2181):681069] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:21:55 [main-SendThread(192.168.0.78:2181):682533] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:21:58 [main-SendThread(192.168.0.78:2181):205999] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:21:59 [main-SendThread(192.168.0.78:2181):207413] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:22:16 [main-SendThread(192.168.0.78:2181):703540] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:22:18 [main-SendThread(192.168.0.78:2181):705446] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:22:20 [main-SendThread(192.168.0.78:2181):228414] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:22:22 [main-SendThread(192.168.0.78:2181):230085] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:22:39 [main-SendThread(192.168.0.78:2181):726450] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:22:41 [main-SendThread(192.168.0.78:2181):728460] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:22:43 [main-SendThread(192.168.0.78:2181):251091] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:22:45 [main-SendThread(192.168.0.78:2181):252576] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:23:02 [main-SendThread(192.168.0.78:2181):749456] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:23:03 [main-SendThread(192.168.0.78:2181):750600] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:23:06 [main-SendThread(192.168.0.78:2181):273572] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:23:08 [main-SendThread(192.168.0.78:2181):275623] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:23:24 [main-SendThread(192.168.0.78:2181):771605] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:23:25 [main-SendThread(192.168.0.78:2181):773256] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:23:29 [main-SendThread(192.168.0.78:2181):296623] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:23:30 [main-SendThread(192.168.0.78:2181):298222] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:23:46 [main-SendThread(192.168.0.78:2181):794263] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:23:48 [main-SendThread(192.168.0.78:2181):795802] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:23:51 [main-SendThread(192.168.0.78:2181):319229] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:23:53 [main-SendThread(192.168.0.78:2181):321193] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:24:09 [main-SendThread(192.168.0.78:2181):816800] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:24:10 [main-SendThread(192.168.0.78:2181):818033] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:24:14 [main-SendThread(192.168.0.78:2181):342198] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:24:16 [main-SendThread(192.168.0.78:2181):344188] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:24:31 [main-SendThread(192.168.0.78:2181):839029] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:24:33 [main-SendThread(192.168.0.78:2181):840617] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:24:37 [main-SendThread(192.168.0.78:2181):365193] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:24:39 [main-SendThread(192.168.0.78:2181):367193] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:24:54 [main-SendThread(192.168.0.78:2181):861624] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:24:56 [main-SendThread(192.168.0.78:2181):863317] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:25:00 [main-SendThread(192.168.0.78:2181):388200] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:25:01 [main-SendThread(192.168.0.78:2181):389486] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:25:17 [main-SendThread(192.168.0.78:2181):884319] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:25:18 [main-SendThread(192.168.0.78:2181):885710] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:25:22 [main-SendThread(192.168.0.78:2181):410499] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:25:24 [main-SendThread(192.168.0.78:2181):411731] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:25:39 [main-SendThread(192.168.0.78:2181):906718] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:25:41 [main-SendThread(192.168.0.78:2181):908587] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:25:45 [main-SendThread(192.168.0.78:2181):432734] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:25:46 [main-SendThread(192.168.0.78:2181):434105] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:26:02 [main-SendThread(192.168.0.78:2181):929584] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:26:03 [main-SendThread(192.168.0.78:2181):930881] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:26:07 [main-SendThread(192.168.0.78:2181):455114] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:26:09 [main-SendThread(192.168.0.78:2181):456581] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:26:24 [main-SendThread(192.168.0.78:2181):951899] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:26:26 [main-SendThread(192.168.0.78:2181):953729] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:26:30 [main-SendThread(192.168.0.78:2181):477577] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:26:31 [main-SendThread(192.168.0.78:2181):479358] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:26:47 [main-SendThread(192.168.0.78:2181):974724] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:26:48 [main-SendThread(192.168.0.78:2181):975857] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:26:52 [main-SendThread(192.168.0.78:2181):500365] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:26:54 [main-SendThread(192.168.0.78:2181):501892] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:27:09 [main-SendThread(192.168.0.78:2181):996855] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:27:10 [main-SendThread(192.168.0.78:2181):997979] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:27:15 [main-SendThread(192.168.0.78:2181):522892] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:27:16 [main-SendThread(192.168.0.78:2181):524053] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:27:31 [main-SendThread(192.168.0.78:2181):1018977] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:27:32 [main-SendThread(192.168.0.78:2181):1020115] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:27:37 [main-SendThread(192.168.0.78:2181):545050] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:27:39 [main-SendThread(192.168.0.78:2181):546903] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:27:53 [main-SendThread(192.168.0.78:2181):1041117] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:27:55 [main-SendThread(192.168.0.78:2181):1042769] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:28:00 [main-SendThread(192.168.0.78:2181):567900] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:28:02 [main-SendThread(192.168.0.78:2181):569837] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:28:16 [main-SendThread(192.168.0.78:2181):1063773] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:28:18 [main-SendThread(192.168.0.78:2181):1065763] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181
+2014-09-02 16:28:23 [main-SendThread(192.168.0.78:2181):590839] - [WARN] Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+java.net.ConnectException: Connection timed out: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(Unknown Source)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1119)
+2014-09-02 16:28:24 [main-SendThread(192.168.0.78:2181):592445] - [INFO] Opening socket connection to server 192.168.0.78/192.168.0.78:2181

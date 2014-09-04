@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+	updateCheck="false" monitoring="autodetect" dynamicConfig="true">
+
+	<diskStore path="java.io.tmpdir/cache4weixin" />
+
+	<defaultCache eternal="false" maxElementsInMemory="1000"
+		overflowToDisk="false" diskPersistent="false" timeToIdleSeconds="0"
+		timeToLiveSeconds="600" memoryStoreEvictionPolicy="LRU" />
+
+	<!-- 存放指定session过期的username,失效时间与web.xml中session失效时间对应 -->
+	<cache name="sessionInvalidateUserCache" maxElementsInMemory="100"
+		maxElementsOnDisk="500" diskPersistent="false" eternal="false"
+		timeToIdleSeconds="1800" timeToLiveSeconds="1800" overflowToDisk="true" />
+
+	<cache name="shiro-activeSessionCache" maxElementsInMemory="10000"
+		overflowToDisk="true" eternal="true" timeToLiveSeconds="0"
+		timeToIdleSeconds="0" diskPersistent="true"
+		diskExpiryThreadIntervalSeconds="600" />
+
+	<cache name="shiro.authorizationCache" maxElementsInMemory="100"
+		eternal="false" timeToLiveSeconds="600" overflowToDisk="false" />
+
+</ehcache>

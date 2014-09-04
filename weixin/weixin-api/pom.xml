@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>weixin</artifactId>
+		<groupId>com.baoyuan</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+	<artifactId>weixin-api</artifactId>
+	<name>weixin-api</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<!-- baoyuan -->
+		<common-util.version>1.0.0-SNAPSHOT</common-util.version>
+		<httpcomponents.version>4.3.1</httpcomponents.version>
+		<json.version>20131018</json.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>com.baoyuan</groupId>
+			<artifactId>common-util</artifactId>
+			<version>${common-util.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpmime</artifactId>
+			<version>${httpcomponents.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>${json.version}</version>
+		</dependency>
+	</dependencies>   
+</project>

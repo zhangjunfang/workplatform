@@ -1,0 +1,15 @@
+.l-panel-search {height:27px;padding-top:5px;;padding-left:1px;border-left: 0px solid #99BBE8;border-right: 0px solid #99BBE8;}
+.l-text-field {padding-top:2px;}
+.l-menubar {height: 21px;border: 1px solid #ADBED6;}
+.l-button {height:21px;width:80px;line-height:21px;}
+.l-text {height:21px;line-height:21px;}
+.liger-search-button {margin-bottom: 3px;width:100px}
+	
+.inputTable {width:100%;word-break: break-all;}
+.inputTable th {width:70px;line-height: 25px;padding: 5px 10px 5px 0px;text-align: left;font-weight: normal;color: #333333;border-bottom: 1px solid #dde9f5;background-color: #f9fbfd;}
+.inputTable tr:hover {background-color: #f6fafd;}
+.inputTable tr:hover th {background-color: #ecf3f9;}
+.inputTable td {line-height: 25px;padding: 3px;color: #666666;border-bottom: 1px solid #dde9f5;}
+.requireField{color:red;}
+
+.l-dialog-content {overflow: hidden;}
